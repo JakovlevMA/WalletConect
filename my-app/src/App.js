@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MetaMaskAuth from "./metamask-auth";
+import MetaMaskLogo from "./favicon.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div className="logoContainer">
+        <img src={MetaMaskLogo} height={160}/>
+      </div>
+      <MetaMaskAuth onAddressChanged={address => {}}/>
+    </main>
   );
 }
 
 export default App;
+
+
