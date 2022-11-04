@@ -9,5 +9,3 @@
 <br>
 
 Just change your `dappUrl` in `metamask-auth.jsx`.
-
-Code walkthrough: [Build a React Component For MetaMask Auth](https://betterprogramming.pub/build-a-react-component-for-metamask-auth-10b7ecba5c3f)
